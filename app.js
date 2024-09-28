@@ -33,7 +33,9 @@ app.use(
 );
 app.use(express.json());
 app.use(helmet());
-app.use(cors());
+app.use(cors({
+  origin:["http://localhost:5000","https://mnrx-jobs-api-app.onrender.com"]
+}));
 app.use(xss());
 
 app.get('/', (req, res) => {
