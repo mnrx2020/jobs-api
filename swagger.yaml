@@ -4,7 +4,7 @@ info:
   contact: {}
   version: '1.0'
 servers:
-  - url: https://mnrx-jobs-api-app.onrender.com/api/v1
+  - url: https://mnrx-jobs-api-app-api.onrender.com/api/v1
     variables: {}
 paths:
   /auth/register:
